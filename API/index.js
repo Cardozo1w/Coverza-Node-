@@ -1,11 +1,7 @@
 const express = require('express');
 const router = require('./routes/index');
-const db = require('./config/db');
-
 
 require('./config/db');
-
-
 
 //Habilitar express
 const app = express();
